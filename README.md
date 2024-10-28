@@ -1,5 +1,4 @@
 # Starbucks-Capstone-Challenge
-# Starbucks Capstone Challenge
 
 ## Project Overview
 
