@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project is a capstone analysis that uses simulated customer data from the Starbucks rewards mobile app to investigate customer response to different types of offers. The goal is to analyze the influence of various offers, demographics, and spending history on customer behavior. Specifically, this project seeks to determine which demographic groups respond best to specific types of offers, such as BOGO (buy one, get one free), discounts, or informational offers.
+This project is the Udacity capstone project that uses simulated customer data from the Starbucks rewards mobile app to investigate customer response to different types of offers. The goal is to analyze the influence of various offers, demographics, and spending history on customer behavior. Specifically, this project seeks to determine which demographic groups respond best to specific types of offers, such as BOGO (buy one, get one free), discounts, or informational offers.
 
 ## Data Sources
 
