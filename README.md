@@ -27,12 +27,12 @@ The project uses three datasets:
 ### Offer Completion
 - The analysis focuses on variables that influence the probability of offer completion. Key findings include:
   - **Income and Spending**: Higher income levels and spending histories increase the likelihood of completing offers.
-  - **Offer Type**: Discount offers tend to have a higher completion rate, especially for middle-aged customers.
-  - **Difficulty and Reward**: Lower difficulty levels with adequate rewards increase the completion probability among younger demographics.
+  - **Offer Type**: Discount offers tend to have a higher completion rate.
+  - **Difficulty and Reward**: Lower difficulty levels increase the completion probability among younger demographics.
 
 ### Multi-Level Classification
 - A multi-level classification model predicts which offer type each customer is most likely to complete.
-- **Customer Segmentation**: Customers are segmented by age, income, and spending behavior. The model suggests targeting offers with low difficulty to young, low-income customers while assigning higher rewards to high-income individuals.
+- The model suggests targeting offers with low difficulty to young, low-income customers while assigning higher difficulties to high-income individuals.
 
 ## Dependencies
 
@@ -48,3 +48,9 @@ The project requires the following Python packages:
 To install the required packages:
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn statsmodels shap
+
+## ChatGPT Assistance
+This project was developed with the support of OpenAI's ChatGPT for code explanation, README file creation, and analytical guidance. ChatGPT helped streamline and clarify the project documentation.
+
+## Medium Blog Post
+For a detailed write-up of this project, please see the Medium blog post here.
