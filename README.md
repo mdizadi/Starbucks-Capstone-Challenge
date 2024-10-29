@@ -50,8 +50,8 @@ To install the required packages:
 pip install pandas numpy matplotlib seaborn scikit-learn statsmodels shap
 ```
 
-## ChatGPT Assistance
+### ChatGPT Assistance
 This project was developed with the support of OpenAI's ChatGPT for code explanation, README file creation, and analytical guidance. ChatGPT helped streamline and clarify the project documentation.
 
-## Medium Blog Post
+### Medium Blog Post
 For a detailed write-up of this project, please see the Medium blog post [here](https://support.udacity.com/hc/en-us/articles/17527771361165-FAQs-about-Udacity-s-New-Subscription).
