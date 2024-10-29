@@ -52,4 +52,4 @@ pip install pandas numpy matplotlib seaborn scikit-learn statsmodels shap
 
 This project was developed with the support of OpenAI's ChatGPT for code explanation, README file creation, and analytical guidance. ChatGPT helped streamline and clarify the project documentation.
 
-For a detailed write-up of this project, please see the Medium blog post [here](https://support.udacity.com/hc/en-us/articles/17527771361165-FAQs-about-Udacity-s-New-Subscription).
+For a detailed write-up of this project, please see the Medium blog post [here](https://medium.com/@mdizadi/understanding-starbucks-customer-behavior-f2055400f790).
