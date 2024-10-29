@@ -48,6 +48,7 @@ The project requires the following Python packages:
 To install the required packages:
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn statsmodels shap
+```
 
 ## ChatGPT Assistance
 This project was developed with the support of OpenAI's ChatGPT for code explanation, README file creation, and analytical guidance. ChatGPT helped streamline and clarify the project documentation.
