@@ -22,6 +22,15 @@ The project uses three datasets:
 - **Logit Regression**: A logistic regression model identifies significant variables that affect the likelihood of completing an offer. Interaction terms are included to capture nuanced effects, such as the influence of income levels on reward and difficulty.
 - **Random Forest Classifier**: A Random Forest model is used to classify customer responses across different offers, considering variables like age, income, spending history, and offer difficulty/reward.
 
+### Model Selection
+
+To determine the best-performing model, both **accuracy** and **F1 score** were considered. These metrics provide an overall performance measure and address potential class imbalances in the data. The test accuracy and F1 scores for both models are nearly identical: Random Forest achieved 80.0% accuracy and an F1 score of 0.79, while XGBoost achieved an 80.0% accuracy and an F1 score of 0.80.
+
+Additionally, both models display minimal overfitting, as indicated by the small differences between training and test accuracies (Random Forest: -0.015, XGBoost: -0.019), suggesting each model generalizes well to new data.
+
+The **Random Forest model** was selected as the final model due to its similar performance to XGBoost and because its feature importance order—particularly for "Reward" and "Difficulty"—aligns more closely with logistic regression. This alignment improves interpretability, offering clearer insights into the impact of key variables.
+
+
 ## Analysis and Findings
 
 ### Offer Completion
@@ -43,12 +52,19 @@ The project requires the following Python packages:
 - `seaborn`
 - `scikit-learn`
 - `statsmodels`
+- `xgboost`
 - `shap`
 
 To install the required packages:
 ```bash
-pip install pandas numpy matplotlib seaborn scikit-learn statsmodels shap
+pip install pandas numpy matplotlib seaborn scikit-learn statsmodels xgboost shap
 ```
+
+## Refrences
+[Starbucks-Capstone-Challenge](https://github.com/mspcvsp/StarbucksCapstoneChallenge)
+[Model Evaluation Metrics in Machine Learning](https://www.kdnuggets.com/2020/05/model-evaluation-metrics-machine-learning.html)
+[Understanding Classification Metrics: Your Guide to Assessing Model Accuracy](https://www.kdnuggets.com/understanding-classification-metrics-your-guide-to-assessing-model-accuracy)
+[Overfitting in Machine Learning: What It Is and How to Prevent It](https://elitedatascience.com/overfitting-in-machine-learning)
 
 This project was developed with the support of OpenAI's ChatGPT for code explanation, README file creation, and analytical guidance. ChatGPT helped streamline and clarify the project documentation.
 
