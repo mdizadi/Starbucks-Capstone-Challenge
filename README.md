@@ -19,8 +19,11 @@ The project uses three datasets:
 - **Transcript Data:** Extracts and organizes events related to offers received, viewed, and completed, tracking customer interactions over time.
 
 ### Modeling Approach
-- **Logit Regression**: A logistic regression model identifies significant variables that affect the likelihood of completing an offer. Interaction terms are included to capture nuanced effects, such as the influence of income levels on reward and difficulty.
-- **Random Forest Classifier**: A Random Forest model is used to classify customer responses across different offers, considering variables like age, income, spending history, and offer difficulty/reward.
+- **Logistic Regression**: A baseline logistic regression model was used to examine significant variables affecting the likelihood of offer completion. Interaction terms provided insights into complex effects, such as income's influence on reward and difficulty.
+- **Random Forest Classifier**: A Random Forest model helped predict customer responses to different offers. The feature importance analysis identified age, income, and spending history as key predictors.
+- **XGBoost Classifier**: XGBoost was implemented as an advanced classifier to enhance prediction accuracy. 
+
+Hyperparameter tuning was applied to optimize performance.
 
 ### Model Selection
 
