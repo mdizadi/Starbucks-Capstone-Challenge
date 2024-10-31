@@ -19,7 +19,7 @@ The project uses three datasets:
 - **Transcript Data:** Extracts and organizes events related to offers received, viewed, and completed, tracking customer interactions over time.
 
 ### Modeling Approach
-- **Logistic Regression**: A baseline logistic regression model was used to examine significant variables affecting the likelihood of offer completion. Interaction terms provided insights into complex effects, such as income's influence on reward and difficulty.
+- **Logistic Regression**: A baseline logistic regression model was estimated to examine significant variables affecting the likelihood of offer completion. Interaction terms provided insights into complex effects, such as income's influence on reward and difficulty.
 - **Random Forest Classifier**: A Random Forest model helped predict customer responses to different offers. The feature importance analysis identified age, income, and spending history as key predictors.
 - **XGBoost Classifier**: XGBoost was implemented as an advanced classifier to enhance prediction accuracy. 
 
@@ -64,10 +64,10 @@ pip install pandas numpy matplotlib seaborn scikit-learn statsmodels xgboost sha
 ```
 
 ## Refrences
-[Starbucks-Capstone-Challenge](https://github.com/mspcvsp/StarbucksCapstoneChallenge)
-[Model Evaluation Metrics in Machine Learning](https://www.kdnuggets.com/2020/05/model-evaluation-metrics-machine-learning.html)
-[Understanding Classification Metrics: Your Guide to Assessing Model Accuracy](https://www.kdnuggets.com/understanding-classification-metrics-your-guide-to-assessing-model-accuracy)
-[Overfitting in Machine Learning: What It Is and How to Prevent It](https://elitedatascience.com/overfitting-in-machine-learning)
+- [Starbucks-Capstone-Challenge](https://github.com/mspcvsp/StarbucksCapstoneChallenge)
+- [Model Evaluation Metrics in Machine Learning](https://www.kdnuggets.com/2020/05/model-evaluation-metrics-machine-learning.html)
+- [Understanding Classification Metrics: Your Guide to Assessing Model Accuracy](https://www.kdnuggets.com/understanding-classification-metrics-your-guide-to-assessing-model-accuracy)
+- [Overfitting in Machine Learning: What It Is and How to Prevent It](https://elitedatascience.com/overfitting-in-machine-learning)
 
 This project was developed with the support of OpenAI's ChatGPT for code explanation, README file creation, and analytical guidance. ChatGPT helped streamline and clarify the project documentation.
 
